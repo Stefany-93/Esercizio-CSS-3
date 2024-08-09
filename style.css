@@ -1,0 +1,318 @@
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(207, 152, 11);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+
+h4 {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 0);
+}
+
+nav {
+  background-image: url(https://naxos-cdn01.gruppocdt.ch/cdt/stories/2023/04/18/1920x1080/2f63850b-f8d9-463c-9ca2-53908a8fae31.jpeg);
+  background-attachment: fixed;
+}
+
+.flex {
+  display: flex;
+  background-color: rgb(255, 255, 0);
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  font-size: 20px;
+  height: 40px;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.border-bottom:hover {
+  border-bottom: deepskyblue 3px dotted;
+}
+
+.colore {
+  color: rgb(207, 152, 11);
+  background-color: rgba(248, 248, 52, 0.664);
+  text-align: center;
+  height: 70px;
+  width: 100%;
+}
+
+.colore:hover {
+  background-image: linear-gradient(60deg,#ffd500ff, #fff1a5ff, #d3ffeaff, #00ffd9ff);
+}
+
+.titoli {
+  display: flex;
+}
+
+.section-titolo {
+  width: 60%;
+}
+
+.section-titoletto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 33px 3px;
+}
+
+.section-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 700px;
+}
+
+.section-flex article {
+  width: 31%;
+  border: solid yellow 2px;
+  height: 600px;
+  padding: 5px 5px;
+}
+
+.section-flex img {
+  margin-top: 60px;
+}
+
+.img-custom img {
+  margin-top: 24px;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-top: 43px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: solid #00ffd9ff 2px;
+  width: 48%;
+  height: 300px;
+  padding: 2px;
+}
+
+.wrap p {
+  height: 10px;
+  margin: -14px 2px 0px 2px;
+  padding: 0px;
+}
+
+.wrap time {
+  padding: 2px 0px 8px 0px;
+}
+
+.wrap h2{
+  margin: -30px 2px 0px 2px;
+  padding: 0px;
+}
+
+main {
+  display: flex;
+}
+
+button {
+  display: block;
+  height: 35px;
+  padding: 5px 0px 20px 0px;
+  background-color: rgb(255, 255, 0);
+  border: solid black 2px;
+  cursor: pointer;
+}
+
+.section-flex button {
+margin-top: 50px;
+margin-left: 87px;
+padding: 5px 10px 10px 10px;
+}
+
+.wrap button {
+  height: 25px;
+  padding: 2px;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap img {
+  width: 250px;
+  height: 100px;
+  margin: -20px 0px 0px 0px;
+  padding: 0px;
+}
+
+footer {
+  background-image: url(.//media/Sfondo-hd-onda-bellissima.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  .freccia {
+    position: sticky;
+    bottom: 0px;
+    margin-left: 95%;
+    height: 63px;
+    width: 63px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes move {
+    0% {transform: translateY(0)}
+    25% {transform: translateY(10px)}
+    50% {transform: translateY(-10px)}
+    75% {transform: translateY(10px)}
+    100% {transform: translateY(0)}
+  }
+
+  @media screen and (max-width: 600px) { 
+    .freccia {
+        height: 33px;
+        width: 33px;
+    }
+  }
